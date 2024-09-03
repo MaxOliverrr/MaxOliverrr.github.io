@@ -1,0 +1,36 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+
+
+  #menu {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 70px;
+    background-color: rgb(83, 83, 83)
+  }
+
+  ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    height: 100%;
+  }
+
+  li {
+    top:20px;
+    margin-left: 20px;
+  }
+
+  li>a {
+    color: white;
+  }
+
+  #container {
+    width: 100%;
+    text-align: center; /* Alinha o conteúdo horizontalmente */
+}
+  
